@@ -78,13 +78,13 @@ hr {
   text-align: left;
   padding-left: 2.6vw;
 }
-.t3 {
+/*.t3 {
   max-width: 39.6875vw;
   font-size: 1.2em;
   min-width: 270px;
-}
+}*/
 .center5 {
-  max-width: 39.6875vw;
+  /*max-width: 39.6875vw;*/
   min-width: 270px;
   font-size: 1.2em;
 }
@@ -115,3 +115,62 @@ hr {
     display: inline-block;
     font-size: 14px;
 }
+/*media queries*/
+/*small desktop screen*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/*tablet screen*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+
+/*mobile phone screen*/
+@media screen and (min-width: 550px) and (max-width: 768px) {
+
+}
+/*small mobile screen*/
+@media screen and (min-width: 200px) and (max-width: 550px) {
+  .whitetitle {
+      color: white;
+      padding: 45px;
+      text-align: center;
+      font-size: 30px;
+  }
+  .center {
+    font-size: 24px;
+}
+  .center1 {
+  max-width: 720px;
+  font-size: 20px;
+}
+.video-container {
+  min-width: 230px;
+  min-height: 200px;
+  position: relative;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+.center2 {
+  font-size: 20px;
+}
+.center4 {
+  font-size: 24px;
+}
+.img {
+    min-width: 78px;
+    max-width: 10vw;
+    position: absolute;
+    left: 15vw;
+    display: none;
+}
+
+.center5 {
+    min-width: 100px;
+    font-size: 18px;
+}
+
+.t3 {
+    font-size: 18px;
+  }
